@@ -144,7 +144,7 @@ function calcularMedia() {
     // outTotalAtaque__time2.textContent = somaTime2__ataque.toFixed(1);
 
     // // cria a condição de vitória do TIME 1
-    if (diferencaTime1__ataquexdefesa >= 5 && diferencaTime1__ataquexdefesa < 10) {
+    if (diferencaTime1__ataquexdefesa >= 3 && diferencaTime1__ataquexdefesa < 5) {
     //     // altera o texto e estilo da cor do elemento outSituacao
     outSituacao.textContent = " ";
     //     // outSituacao.style.color = "blue";
@@ -155,29 +155,29 @@ function calcularMedia() {
     // //     // outSituacao.style.color = "green";
     // outGols__Time2.textContent = "0";
 
-    } else if (diferencaTime1__ataquexdefesa >= 10 && diferencaTime1__ataquexdefesa < 15) {
+    } else if (diferencaTime1__ataquexdefesa >= 5 && diferencaTime1__ataquexdefesa < 8) {
     outSituacao.textContent = " ";
     //   // outSituacao.style.color = "green";
     outGols__Time1.textContent = "2";
 
-    } else if (diferencaTime1__ataquexdefesa >= 15 && diferencaTime1__ataquexdefesa < 20) {
+    } else if (diferencaTime1__ataquexdefesa >= 8 && diferencaTime1__ataquexdefesa < 11) {
     outSituacao.textContent = " ";
     //   // outSituacao.style.color = "green";
     outGols__Time1.textContent = "3";  
 
-    } else if (diferencaTime1__ataquexdefesa >= 20 && diferencaTime1__ataquexdefesa < 25) {
+    } else if (diferencaTime1__ataquexdefesa >= 11 && diferencaTime1__ataquexdefesa < 15) {
     outSituacao.textContent = " ";
     //   // outSituacao.style.color = "green";
     outGols__Time1.textContent = "4";
 
-    } else if (diferencaTime1__ataquexdefesa >= 25 && diferencaTime1__ataquexdefesa < 30) {
+    } else if (diferencaTime1__ataquexdefesa >= 15 && diferencaTime1__ataquexdefesa < 20) {
     outSituacao.textContent = " ";
     //   // outSituacao.style.color = "green";
     outGols__Time1.textContent = "5";
 
     // // cria a condição de vitória do TIME 2
 
-    } else if (diferencaTime2__ataquexdefesa >= 5 && diferencaTime2__ataquexdefesa < 10) {
+    } else if (diferencaTime2__ataquexdefesa >= 3 && diferencaTime2__ataquexdefesa < 5) {
     outSituacao.textContent = " ";
     //     // outSituacao.style.color = "green";
     outGols__Time2.textContent = "1";
@@ -187,22 +187,22 @@ function calcularMedia() {
     // //     // outSituacao.style.color = "green";
     // outGols__Time2.textContent = "0";
 
-    } else if (diferencaTime2__ataquexdefesa >= 10 && diferencaTime2__ataquexdefesa < 15) {
+    } else if (diferencaTime2__ataquexdefesa >= 5 && diferencaTime2__ataquexdefesa < 8) {
     outSituacao.textContent = " ";
     //     // outSituacao.style.color = "green";
      outGols__Time2.textContent = "2";
 
-    } else if (diferencaTime2__ataquexdefesa >= 15 && diferencaTime2__ataquexdefesa < 20) {
+    } else if (diferencaTime2__ataquexdefesa >= 8 && diferencaTime2__ataquexdefesa < 11) {
     outSituacao.textContent = " ";
     //   // outSituacao.style.color = "green";
     outGols__Time2.textContent = "3";
 
-    } else if (diferencaTime2__ataquexdefesa >= 20 && diferencaTime2__ataquexdefesa < 25) {
+    } else if (diferencaTime2__ataquexdefesa >= 11 && diferencaTime2__ataquexdefesa < 15) {
     outSituacao.textContent = " ";
     //   // outSituacao.style.color = "green";
     outGols__Time2.textContent = "4";  
 
-    } else if (diferencaTime2__ataquexdefesa >= 25 && diferencaTime2__ataquexdefesa < 30) {
+    } else if (diferencaTime2__ataquexdefesa >= 15 && diferencaTime2__ataquexdefesa < 20) {
     outSituacao.textContent = " ";
     //   // outSituacao.style.color = "green";
     outGols__Time2.textContent = "5";
