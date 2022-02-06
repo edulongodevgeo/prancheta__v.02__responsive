@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- CONTAINER-PRINCIPAL -->
+<div class="main-login">
+
+	<div class="container">
+		<div class="logo">
+      <h1>PRANCHETA</h1>
+    </div>
+		
+    <div class="titulo">
+      <h1 class="titulo__menu"></h1>
+    </div>
+	
+  	<div class="user">
+      <a href="https://www.linkedin.com/in/eduardo-longo-devgeo/">By @EduLongo</a>
+    </div>
+	
+  	<div class="main-content">
+      <!-- DIV__PLACAR -->
+  <div class="meio">
+
+    <h3 id="outSituacao"></h3>
+
+    <div class="meio__placar">
+    <h3 id="outGols__Time1"> 0 </h3>
+    <h1>X</h1>
+    <h3 id="outGols__Time2"> 0 </h3>
+    </div>
+
+    <p>
+      <input type="button" value="Tendência de Placar" id="btResultado">
+    </p>
+
+  </div>
+    </div>
+    
+    <div class="side-bar-left">
+    <!-- DIV-TIME__1 -->
+		<section class="time__1">
+				<h1 id="inTime1">TIME 1</h1>
+
+        <div class="chamada__input">
+        <label for="i.O">i.O = Influência Ofensiva (ATQ.)</label>
+        <label for="i.D">i.D = Influência Defensiva (DEF.)</label>
+        <label for="i.T">i.T = Influência Tática (TÉC.)</label>
+        </div>
+
+        <!-- <h5>Digite o peso que você avalia para cada posição:</h5> -->
+      <div class="time__1__inputs">
+				<div class="tecnico__time1">
+        <input type="text"  placeholder="Técnico" id="nomeTecnico__time1" class="input__style__nome">
+        <input type="text"  placeholder="Téc." id="pesoTecnico__time1" class="input__style">
+        </div>
+
+        <div class="jogador1__time1">
+        <input type="text"  placeholder="jogador 1" id="inJogador1__time1" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador1__time1" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador1__time1" class="input__style">
+        </div>
+
+        <div class="jogador2__time1">
+        <input type="text"  placeholder="jogador 2" id="inJogador2__time1" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador2__time1" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador2__time1" class="input__style">
+        </div>
+
+        <div class="jogador3__time1">
+        <input type="text"  placeholder="jogador 3" id="inJogador3__time1" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador3__time1" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador3__time1" class="input__style">
+        </div>
+
+        <div class="jogador4__time1">
+        <input type="text"  placeholder="jogador 4" id="inJogador4__time1" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador4__time1" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador4__time1" class="input__style">
+        </div>
+
+        <div class="jogador5__time1">
+        <input type="text"  placeholder="jogador 5" id="inJogador5__time1" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador5__time1" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador5__time1" class="input__style">
+        </div>
+
+        <div class="jogador6__time1">
+        <input type="text"  placeholder="jogador 6" id="inJogador6__time1" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador6__time1" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador6__time1" class="input__style">
+        </div>
+
+        <div class="jogador7__time1">
+        <input type="text"  placeholder="jogador 7" id="inJogador7__time1" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador7__time1" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador7__time1" class="input__style">
+        </div>
+
+        <div class="jogador8__time1">
+        <input type="text"  placeholder="jogador 8" id="inJogador8__time1" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador8__time1" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador8__time1" class="input__style">
+        </div>
+
+        <div class="jogador9__time1">
+        <input type="text"  placeholder="jogador 9" id="inJogador9__time1" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador9__time1" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador9__time1" class="input__style">
+        </div>
+
+        <div class="jogador10__time1">
+        <input type="text"  placeholder="jogador 10" id="inJogador10__time1" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador10__time1" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador10__time1" class="input__style">
+        </div>
+
+        <div class="jogador11__time1">
+        <input type="text"  placeholder="jogador 11" id="inJogador11__time1" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador11__time1" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador11__time1" class="input__style">
+        </div>
+      </div>  
+        <!-- Utilizar quando necessitar de verificação! -->
+        <!-- <h3 id="outTotalDefesa__time1">Total Defesa: </h3>
+        <h3 id="outTotalAtaque__time1">Total Ataque: </h3>  -->
+    </section>
+    </div>
+		
+    <div class="side-bar-rig">
+      <!-- DIV-TIME__2 -->
+    		<section class="time__2">
+				<h1 id="inTime2">TIME 2</h1>
+
+        <div class="chamada__input">
+        <label for="i.O">i.O = Influência Ofensiva (ATQ.)</label>
+        <label for="i.D">i.D = Influência Defensiva (DEF.)</label>
+        <label for="i.T">i.T = Influência Tática (TÉC.)</label>
+        </div>
+
+      <!-- <h5>Digite o peso que você avalia para cada posição:</h5> -->
+      <div class="time__2__inputs">
+        <div class="tecnico__time2">
+        <input type="text"  placeholder="Técnico" id="nomeTecnico__time2" class="input__style__nome">
+        <input type="text"  placeholder="i.T." id="pesoTecnico__time2" class="input__style">
+        </div>
+
+        <div class="jogador1__time2">
+        <input type="text"  placeholder="jogador 1" id="inJogador1__time2" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador1__time2" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador1__time2" class="input__style">
+        </div>
+
+        <div class="jogador2__time2">
+        <input type="text"  placeholder="jogador 2" id="inJogador2__time2" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador2__time2" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador2__time2" class="input__style">
+        </div>
+
+        <div class="jogador3__time2">
+        <input type="text"  placeholder="jogador 3" id="inJogador3__time2" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador3__time2" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador3__time2" class="input__style">
+        </div>
+
+        <div class="jogador4__time2">
+        <input type="text"  placeholder="jogador 4" id="inJogador4__time2" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador4__time2" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador4__time2" class="input__style">
+        </div>
+
+        <div class="jogador5__time2">
+        <input type="text"  placeholder="jogador 5" id="inJogador5__time2" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador5__time2" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador5__time2" class="input__style">
+        </div>
+
+        <div class="jogador6__time2">
+        <input type="text"  placeholder="jogador 6" id="inJogador6__time2" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador6__time2" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador6__time2" class="input__style">
+        </div>
+
+        <div class="jogador7__time2">
+        <input type="text"  placeholder="jogador 7" id="inJogador7__time2" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador7__time2" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador7__time2" class="input__style">
+        </div>
+
+        <div class="jogador8__time2">
+        <input type="text"  placeholder="jogador 8" id="inJogador8__time2" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador8__time2" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador8__time2" class="input__style">
+        </div>
+
+        <div class="jogador9__time2">
+        <input type="text"  placeholder="jogador 9" id="inJogador9__time2" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador9__time2" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador9__time2" class="input__style">
+        </div>
+
+        <div class="jogador10__time2">
+        <input type="text"  placeholder="jogador 10" id="inJogador10__time2" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador10__time2" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador10__time2" class="input__style">
+        </div>
+
+        <div class="jogador11__time2">
+        <input type="text"  placeholder="jogador 11" id="inJogador11__time2" class="input__style__nome">
+        <input type="text"  placeholder="Def." id="inDefesaJogador11__time2" class="input__style">
+        <input type="text"  placeholder="Atq." id="inAtaqueJogador11__time2" class="input__style">
+        </div>
+      </div>
+
+        <!-- <Utilizar quando necessitar de verificação! -->
+        <!-- <h3 id="outTotalDefesa__time2">Total Defesa: </h3>
+        <h3 id="outTotalAtaque__time2">Total Ataque: </h3> -->
+    </section>
+    </div>
+	</div>
+</div>
+
+	<script src="script.js">
+
+	</script>
+</body>
+
+</html>
